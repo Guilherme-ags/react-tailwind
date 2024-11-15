@@ -19,3 +19,29 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md;
+    @apply text-base;
+  }
+
+  .btn-info{
+    @apply btn;
+    @apply bg-blue-500 hover:bg-blue-700;
+  }
+  .btn-success{
+    @apply btn;
+    @apply bg-green-500 hover:bg-green-700;
+  }
+  .btn-error{
+    @apply btn;
+    @apply bg-red-500 hover:bg-red-700;
+  }
+}
