@@ -7,7 +7,7 @@ export default function Padding(){
             <Caixa className="py-5">#2</Caixa>
             <Caixa className="pb-4 pl-6">#3</Caixa>
             <Caixa className="p-5">#4</Caixa>
-            <Caixa className="pt-[11px]">#4</Caixa>
+            <Caixa className="pt-[11px]">#5</Caixa>
         </div>
     )
 }
